@@ -19,8 +19,8 @@ body {
   padding: 50px;
 }
 
-/* MAIN CARD LAYOUT */
-.card {
+/* MAIN PRODUCT LAYOUT */
+.product {
   max-width: 1000px;
   margin: auto;
   background: #f3f3f3;
@@ -42,7 +42,7 @@ body {
   border-radius: 12px;
 }
 
-.photo-main img {
+.photo-main > img {
   width: 100%;
   display: block;
   border-radius: 8px;
@@ -53,19 +53,19 @@ body {
   margin-top: 15px;
 }
 
-.photo-album ul {
+.photo-album > ul {
   list-style: none;
   display: flex;
   gap: 10px;
 }
 
-.photo-album ul li {
+.photo-album > ul > li {
   background: white;
   padding: 6px;
   border-radius: 6px;
 }
 
-.photo-album img {
+.photo-album > ul > li > img {
   width: 60px;
   height: 60px;
   object-fit: cover;
@@ -110,14 +110,14 @@ h1 {
   list-style: none;
 }
 
-.variant li {
+.variant ul li {
   background: white;
   padding: 6px;
   border-radius: 50%;
   border: 2px solid #ccc;
 }
 
-.variant img {
+.variant ul li img {
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -162,7 +162,7 @@ button:hover {
 
 <body>
 
-<div class="card">
+<div class="product">
 
   <!-- LEFT SIDE -->
   <div class="product__photo">
